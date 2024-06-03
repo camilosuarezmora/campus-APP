@@ -1,0 +1,25 @@
+{
+    "Ruta Java": {
+        "Juan mariño":{
+            "u2":{
+                "Salon": "Sputnik",
+                "skill": "Python",
+                
+                "campers":[{
+                        "123123": {
+                            "Nombre" : "Camilo",
+                            "Apellidos" :"Suárez Mora",
+                            "Documento": "123123",
+                            "Dirección": "Cra 30 #14-08",
+                            "Telefono" : "6355050",
+                            "Acudiente" : "Maria Monares",
+                    
+                            "Riesgo": false,
+                            "Estado": "Inscrito"
+                        }
+                        }]
+                    
+                }
+            }
+        }
+    }

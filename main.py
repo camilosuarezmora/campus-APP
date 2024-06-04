@@ -17,6 +17,6 @@ while True:
         elif elecc_menu_cargo == 2:
                 print("Elegiste continuar como TRAINER")
         elif elecc_menu_cargo == 3:
-                print("Elegiste continuar como COORDINADOR")
+                from coordinacion import main_de_coordinacion
 
 

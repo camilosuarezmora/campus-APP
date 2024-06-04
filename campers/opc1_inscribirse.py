@@ -2,7 +2,7 @@ import json
 
 def inscribirse():
     nuevo_camper={}
-    print("********** INGRESASTE AL APARTADO REGISTROS **********")
+    print("========== INGRESASTE AL APARTADO REGISTROS ==========")
     print("Para registrarte sigue los pasos: ")
     
     doc = input("     Escribe aquí tu documento de identidad >> ")
@@ -26,6 +26,6 @@ with open("datos//campers.json", "r+") as yeison_campers: #abre el json para uti
     yeison_campers_escribiendo = json.load(yeison_campers) #convierte el json en diccionario que se puede modificar en py
     yeison_campers_escribiendo.append(nuevo_camper) #al diccionario original de json se le agrega el elemento dentro de la función
     yeison_campers.seek(0)
-    json.dump(yeison_campers_escribiendo, yeison_campers)
+    json.dump(yeison_campers_escribiendo, indent=4)
     yeison_campers.truncate()
     yeison_campers.close()

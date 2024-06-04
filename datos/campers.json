@@ -1,1 +1,15 @@
-[{"123123": {"Nombre": "Camilo", "Apellidos": "Suarez Mora", "Documento": "123123", "Direccion": "Cra 30 #14-08", "Telefono": "3188477656", "Acudiente": "Rosa Mora", "Riesgo": false, "Estado": "Inscrito"}}, {"456456": {"Nombre": "Jhoan", "Apellidos": "Pelaez Villamizar", "Documento": "456456", "Direccion": "Avenida circumbalar", "Telefono": "6355050", "Acudiente": "Maria Monares", "Riesgo": false, "Estado": "Inscrito"}}, {"1099740009": {"Nombre": "juan pablo", "Apellidos": "rueda nos e", "Direccion": "soleri", "Celular": "311111111", "Fijo": "111111113", "Acudiente": "mama de jp", "Riesgo": false, "Estado": "Inscrito", "Nota de ingreso": 0}}]
+[
+    {
+        "123123": {
+            "Nombre": "Camilo",
+            "Apellidos": "Suarez Mora",
+            "Documento": "123123",
+            "Direccion": "Cra 30 #14-08",
+            "Telefono": "3188477656",
+            "Acudiente": "Rosa Mora",
+            "Riesgo": false,
+            "Estado": "Inscrito",
+            "notaPruebaIngreso": 70
+        }
+    }
+]

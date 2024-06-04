@@ -7,12 +7,13 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # Añadir el directorio actual a sys.path
 sys.path.append(current_dir)
 
-print("********** INGRESASTE COMO CAMPER **********")
+print("========== INGRESASTE COMO CAMPER ==========")
 
 #tupla para mostrar las opciones dentro de "camper"
 mini_menu_camper = (
     "   Escribe 1 para inscribirte por primera vez.",
-    "   Escribe 2 para salir."
+    "   Escribe 2 para ver tus notas de modulo",
+    "   Escribe 3 para salir."
 )
 
 while True: 
@@ -26,7 +27,9 @@ while True:
         break
     elif elecc_mini_menu_camper == 1:
         from opc1_inscribirse import *
-        print("/n      Usuario registrado exitosamente      ")   
+        print("=========== Usuario registrado exitosamente ===========")   
+    elif elecc_mini_menu_camper == 2:
+        from opc2_notas import *    
         
         
 

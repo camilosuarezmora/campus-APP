@@ -1,4 +1,5 @@
-import json
+from maneja_jsons import *
+
 
 def inscribirse():
     nuevo_camper={}
@@ -19,13 +20,18 @@ def inscribirse():
     nuevo_camper[doc]["Nota de ingreso"] = 0
 
     return nuevo_camper
+\
+def funcion_inscripcion(): 
 
-nuevo_camper = inscribirse()
+    nuevo_camper = inscribirse()
 
-with open("datos//campers.json", "r+") as yeison_campers: #abre el json para utilizarlo
-    yeison_campers_escribiendo = json.load(yeison_campers) #convierte el json en diccionario que se puede modificar en py
-    yeison_campers_escribiendo.append(nuevo_camper) #al diccionario original de json se le agrega el elemento dentro de la función
-    yeison_campers.seek(0)
-    json.dump(yeison_campers_escribiendo, indent=4)
-    yeison_campers.truncate()
-    yeison_campers.close()
+# Cargar datos existentes
+    ruta_campers = "datos\campers.json"
+    datos_campers = carga_datos(ruta_campers)
+
+    # Agregar nuevo camper a los datos existentes
+    datos_campers.update(nuevo_camper)
+
+    # Guardar datos actualizados
+    guardar_datos(datos_campers, ruta_campers)
+

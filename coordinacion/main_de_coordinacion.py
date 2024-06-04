@@ -33,4 +33,6 @@ while True:
         print("               SALIDA EXITOSA               ")
         break
     elif eleccion_menu_principal_coor == 1:
-        from coordinacion import opc1_registraNotas
+        from opc1_registraNotas import *
+    elif eleccion_menu_principal_coor == 2:
+        from opc2_cambiaEstado import *    

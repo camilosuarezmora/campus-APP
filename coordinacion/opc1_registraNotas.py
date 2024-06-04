@@ -35,7 +35,7 @@ def nota_por_modulo():
                 nota = int(input("     Ingresa la nota que el camper sacó en esa skill  \n>>"))
                 dicc_de_usuarios[doc_camper][skill]= nota
                 
-                #SI NO EXISTE LA NOTA
+                #SI NO EXISTE LA SKILL LA CREA, ESO NO PUEDE SER 
                 
                 print("           NOTA REGISTRADA EXITOSAMENTE           ")
                 print("===============================================")

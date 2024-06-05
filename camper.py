@@ -26,10 +26,10 @@ while True:
         print("               SALIDA EXITOSA               ")
         break
     elif elecc_mini_menu_camper == 1:
-        from opc1_inscribirse import *
+        from camper_opc1_inscribirse import *
         print("=========== Usuario registrado exitosamente ===========")   
     elif elecc_mini_menu_camper == 2:
-        from opc2_notas import *    
+        from camper_opc2_notas import *    
         
         
 

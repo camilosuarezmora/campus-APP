@@ -1,6 +1,6 @@
 import json
 print("============ INGRESASTE A LA SECCION DE VER NOTAS ============")
-doc = input("     Ingresa el tu documento de identidad \n >>")
+doc = input("     Ingresa el tu documento de identidad     \n>>")
 
 with open("datos//notas_por_modulo.json", "r+") as yeison_notas:
     yeison_notas_modificable = json.load(yeison_notas) 

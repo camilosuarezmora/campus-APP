@@ -13,8 +13,8 @@ while True:
         "       Escribe 1 para registrar notas de los campers.",
                     #submenu para registrar notas de modulo y de inicio
         "       Escribe 2 para cambiar el estado de un camper.",
-        "       Escribe 3 para crear una nueva ruta",
-        "       Escribe 4 para mostrar los campers con bajo rendimiento",
+        "       Escribe 3 para mostrar los campers con bajo rendimiento",
+        "       Escribe 4 para crear una nueva ruta",
         "       Escribe 5 para ingresar al modulo de reportes.",
                     #
         "       Escribe 6 para mostrar los trainers contratados.",
@@ -33,6 +33,8 @@ while True:
         print("               SALIDA EXITOSA               ")
         break
     elif eleccion_menu_principal_coor == 1:
-        from opc1_registraNotas import *
+        import coor_opc1_registraNotas
     elif eleccion_menu_principal_coor == 2:
-        from opc2_cambiaEstado import *    
+        import coor_opc2_cambiaEstado
+    elif eleccion_menu_principal_coor == 3:
+        import coor_opc3_bajoRendimiento    

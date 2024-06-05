@@ -13,10 +13,10 @@ while True:
                 print("               SALIDA EXITOSA               ")
                 break
         elif elecc_menu_cargo == 1:
-                from campers import camper
+                import camper
         elif elecc_menu_cargo == 2:
                 print("Elegiste continuar como TRAINER")
         elif elecc_menu_cargo == 3:
-                from coordinacion import main_de_coordinacion
+                import coordinacion
 
 

@@ -1,15 +1,49 @@
-[
-    {
-        "123123": {
-            "Nombre": "Camilo",
-            "Apellidos": "Suarez Mora",
-            "Documento": "123123",
-            "Direccion": "Cra 30 #14-08",
-            "Telefono": "3188477656",
-            "Acudiente": "Rosa Mora",
+{
+    "258": {
+        "Nombre": "fghjui",
+        "Apellidos": "vbnm,",
+        "Direccion": "fghjkl",
+        "Celular": "vbjkl",
+        "Fijo": "ghjkl",
+        "Acudiente": "ghjkl",
+        "Riesgo": false,
+        "Estado": "Inscrito",
+        "Nota de ingreso": 0
+    },
+    "321": {
+        "Nombre": "fi",
+        "Apellidos": "ghjkl",
+        "Direccion": "fghjkl",
+        "Celular": "ghjkl",
+        "Fijo": "hjkl\u00f1",
+        "Acudiente": "hjkl\u00f1",
+        "Riesgo": false,
+        "Estado": "Inscrito",
+        "Nota de ingreso": 0
+    },
+    "741": {
+        "741": {
+            "Nombre": "dfghjk",
+            "Apellidos": "ghjk",
+            "Direccion": "jhgf",
+            "Celular": "jhgf",
+            "Fijo": "kjhg",
+            "Acudiente": "kjhg",
             "Riesgo": false,
-            "Estado": "RETIRADO",
-            "notaPruebaIngreso": 70
+            "Estado": "Inscrito",
+            "Nota de ingreso": 0
         }
+    },
+    "852": {
+        "documento": "852",
+        "Nombre": "camilo",
+        "Apellidos": "saurez",
+        "Direccion": "mi casa",
+        "Celular": "654",
+        "Fijo": "765432",
+        "Acudiente": "mama mia",
+        "Riesgo": false,
+        "Estado": "Inscrito",
+        "Nota de ingreso": 0
     }
-]
+}

@@ -16,7 +16,7 @@ def inscribirse():
 
     nuevo_camper["Riesgo"] = False
     nuevo_camper["Estado"] = "Inscrito"
-    nuevo_camper["Nota de ingreso"] = 0
+    nuevo_camper["Nota_de_ingreso"] = 0
 
     return nuevo_camper
 

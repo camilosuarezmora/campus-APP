@@ -23,9 +23,9 @@ while True:
         elif selecc == 1:
             print("Pendiente")
         elif selecc == 2:
-            print("Pendiente")
+            import reportes_opc2
         elif selecc == 3:
-            print("Pendiente")
+            import reportes_opc3
         elif selecc == 4:
             import reportes_opc4
         elif selecc == 5:

@@ -8,7 +8,7 @@
         "Acudiente": "kjnhbgf",
         "Riesgo": false,
         "Estado": "Inscrito",
-        "Nota de ingreso": 0
+        "Nota_de_ingreso":100
     },
     "789789789789": {
         "Nombre": "iuyjhtb",
@@ -19,7 +19,7 @@
         "Acudiente": "ynhtbgr",
         "Riesgo": false,
         "Estado": "Inscrito",
-        "Nota de ingreso": 0
+        "Nota_de_ingreso": 0
     },
     "123456789": {
         "Nombre": "kirftghb",
@@ -30,7 +30,7 @@
         "Acudiente": "dfgfdg",
         "Riesgo": false,
         "Estado": "Inscrito",
-        "Nota de ingreso": 0
+        "Nota_de_ingreso": 0
     },
     "741852963": {
         "Nombre": "asd",
@@ -41,6 +41,6 @@
         "Acudiente": "asd",
         "Riesgo": false,
         "Estado": "Inscrito",
-        "Nota de ingreso": 0
+        "Nota_de_ingreso": 100
     }
 }

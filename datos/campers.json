@@ -1,49 +1,36 @@
 {
-    "258": {
-        "Nombre": "fghjui",
-        "Apellidos": "vbnm,",
-        "Direccion": "fghjkl",
-        "Celular": "vbjkl",
-        "Fijo": "ghjkl",
-        "Acudiente": "ghjkl",
-        "Riesgo": false,
-        "Estado": "Inscrito",
-        "Nota de ingreso": 0
+    "123123": {
+        "PSEINT": 0,
+        "PYTHON": 12345678910,
+        "HTML": 0,
+        "CSS": 0,
+        "BOOTSTRAP": 0,
+        "JAVA": 0,
+        "JAVASCRIPT": 0,
+        "C#": 0,
+        "MYSQL": 0,
+        "MONGODB": 0,
+        "POSTGRESQL": 0,
+        "NETCORE": 0,
+        "SPRING BOOT": 0,
+        "NODEJS": 0,
+        "EXPRESS": 0
     },
-    "321": {
-        "Nombre": "fi",
-        "Apellidos": "ghjkl",
-        "Direccion": "fghjkl",
-        "Celular": "ghjkl",
-        "Fijo": "hjkl\u00f1",
-        "Acudiente": "hjkl\u00f1",
-        "Riesgo": false,
-        "Estado": "Inscrito",
-        "Nota de ingreso": 0
-    },
-    "741": {
-        "741": {
-            "Nombre": "dfghjk",
-            "Apellidos": "ghjk",
-            "Direccion": "jhgf",
-            "Celular": "jhgf",
-            "Fijo": "kjhg",
-            "Acudiente": "kjhg",
-            "Riesgo": false,
-            "Estado": "Inscrito",
-            "Nota de ingreso": 0
-        }
-    },
-    "852": {
-        "documento": "852",
-        "Nombre": "camilo",
-        "Apellidos": "saurez",
-        "Direccion": "mi casa",
-        "Celular": "654",
-        "Fijo": "765432",
-        "Acudiente": "mama mia",
-        "Riesgo": false,
-        "Estado": "Inscrito",
-        "Nota de ingreso": 0
+    "456456": {
+        "PSeInt": 0,
+        "Python": 0,
+        "HTML y CSS": 0,
+        "Bootstrap": 0,
+        "Java": 0,
+        "JavaScript": 0,
+        "C#": 0,
+        "Mysql": 0,
+        "MongoDb": 0,
+        "Postgresql": 0,
+        "NetCore": 0,
+        "Spring Boot": 0,
+        "NodeJS": 0,
+        "Express": 0,
+        "CSS": 100
     }
 }

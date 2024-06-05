@@ -28,7 +28,7 @@ while True:
         elif eleccion_menu_principal_coor == 2:
             import coor_opc2_cambiaEstado
         elif eleccion_menu_principal_coor == 3:
-            print("PENDIENTE")    
+            import coor_opc3_creaRuta    
         elif eleccion_menu_principal_coor == 4:
             import moduloReportes    
         else:

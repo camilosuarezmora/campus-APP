@@ -21,7 +21,7 @@ while True:
             print("     SALIDA EXITOSA     ")
             break
         elif selecc == 1:
-            print("Pendiente")
+            import reportes_opc1
         elif selecc == 2:
             import reportes_opc2
         elif selecc == 3:

@@ -26,4 +26,4 @@ while True:
         print("codigo no valido")
 contenido = json.dumps(nte, indent=4)
 with open("datos/grupos.json", "w") as file:
-    file.write(contenido)""""""
+    file.write(contenido)"""

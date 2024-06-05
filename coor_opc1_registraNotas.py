@@ -1,7 +1,7 @@
 import json
 
 try:
-    with open("datos//campers.json", "r+") as yeison_notas:
+    with open("datos//notas_por_modulo.json", "r") as yeison_notas:
         yeison_notas_modificable = json.load(yeison_notas)
     
     def nota_de_ingreso():
@@ -15,11 +15,12 @@ try:
             else:
                 print("EL CAMPER NO ESTÁ REGISTRADO")
         print("==========================================")
+
     
     def guardar_campers():
-        with open("datos/campers.json", "w") as yeison_notas:
+        with open("datos/notas_por_modulo.json", "w") as yeison_notas:
             json.dump(yeison_notas_modificable, yeison_notas, indent=4)
-
+    
     with open("datos//notas_por_modulo.json", "r+") as yeison_notas:
         yeison_notas_modificable = json.load(yeison_notas)
 

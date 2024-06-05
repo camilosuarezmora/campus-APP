@@ -1,13 +1,8 @@
-#importar el txt del inicio (logo y menú principal)
-with open("menu_inicial.txt", "r") as inicio:
-    print(inicio.read())
-    inicio.close()
-
-
-
-
-
 while True:
+    with open("menu_inicial.txt", "r") as inicio:
+        print(inicio.read())
+        inicio.close()
+
     try:
         elecc_menu_cargo = int(input(">> "))
         if elecc_menu_cargo == 4:

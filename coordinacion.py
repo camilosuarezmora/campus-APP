@@ -3,15 +3,15 @@ while True:
         print("========== INGRESASTE COMO COORDINADOR ==========")
         tupla_menu_principal_coor = (
             "       Escribe 1 para registrar notas de los campers.",
-            # Submenu para registrar notas de módulo e inicio
             "       Escribe 2 para cambiar el estado de un camper.",
-            "       Escribe 3 para mostrar los campers con bajo rendimiento",
-            "       Escribe 4 para crear una nueva ruta",
-            "       Escribe 5 para ingresar al módulo de reportes.",
-            # Submenu para listar los que pasaron y los que perdieron
-            "       Escribe 6 para mostrar los trainers contratados.",
-            "       Escribe 7 para buscar los campers y trainers que se encuentran en esa ruta",
-            "       Escribe 8 para conocer los estudiantes que pasaron y que perdieron cada módulo",
+            "       Escribe 3 para crear una nueva ruta",
+            "       Escribe 4 para ingresar al módulo de reportes.",
+                        #Listar los campers que se encuentren en estado de inscrito.
+                        #Listar los campers que aprobaron el examen inicial.
+                        #Listar los entrenadores que se encuentran trabajando con CampusLands.
+                        #Listar los campers que cuentan con bajo rendimiento.
+                        #Listar los campers y trainers que se encuentren asociados a una ruta de entrenamiento.
+                        #Mostrar cuantos campers perdieron y aprobaron cada uno de los módulos teniendo en cuenta la ruta de entrenamiento y el entrenador encargado.
             "       Escribe 9 para salir."
         )
 
@@ -28,8 +28,10 @@ while True:
         elif eleccion_menu_principal_coor == 2:
             import coor_opc2_cambiaEstado
         elif eleccion_menu_principal_coor == 3:
-            import coor_opc3_bajoRendimiento
+            print("PENDIENTE")    
+        elif eleccion_menu_principal_coor == 4:
+            import moduloReportes    
         else:
             print("Opción no válida. Intente de nuevo.")
     except Exception:
-        print("Ocurrió un error:")
+        print("Ocurrió un error")

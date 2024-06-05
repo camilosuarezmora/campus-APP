@@ -9,7 +9,7 @@ try:
     for campers in notas_modificable:
         for info_camper in campers:
             print("pendiente")
-    
+
     print("==================================================")        
 except Exception:
     print("Ocurrió un error:")

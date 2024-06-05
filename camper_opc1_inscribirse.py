@@ -33,3 +33,11 @@ try:
         
 except Exception:
     print("Ocurrió un error")
+
+with open("datos//notas_por_modulo.json", "r") as carga_notas:
+    notas_modificable = json.load(carga_notas)
+notas_modificable[doc]={}
+with open("datos//notas_por_modulo.json", "w") as escribe_notas:
+    json.dump(notas_modificable, escribe_notas, indent=4)
+
+

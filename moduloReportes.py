@@ -29,7 +29,7 @@ while True:
         elif selecc == 4:
             import reportes_opc4
         elif selecc == 5:
-            print("Pendiente")
+            import reportes_opc5
         elif selecc == 6:
             print("Pendiente")  
         else:

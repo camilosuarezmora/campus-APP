@@ -1,5 +1,23 @@
 {
-    "Ruta_Java": ["Juan Mariño", "Miguel"],
-    "Ruta_NoteJS":["Jholver"],
-    "Ruta_NetCore":["Profesor ekis"]
+    "ruta java": {
+        "Juan Mari\u00c3\u00b1o": [
+            "u2",
+            "u4"
+        ],
+        "Jholver": [
+            "j1",
+            "j5"
+        ],
+        "Miguel": [
+            "m1",
+            "m8"
+        ]
+    },
+    "nueva_ruta": {},
+    "name": {},
+    "ghjfghjkl\u00f1": {
+        "Juan Mari\u00f1o": [
+            "j4"
+        ]
+    }
 }
